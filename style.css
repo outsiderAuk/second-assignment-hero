@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #1a0b2e;
+}
+
 .font-inter {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -92,18 +96,13 @@ nav {
     z-index: -1;   
 }
 
-.banner-content{
-    width: 550px;
-    height: 558px;
-    margin-right: 525px;
-    margin-top: 101px;
-}
+
 
 .banner-content {
   width: 550px;
   height: 558px;
   position: absolute;
-  top: 40%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -224,3 +223,69 @@ nav {
   transform: scale(1.05);
 }
 
+
+.podcast-container{
+    width: 100%;
+    height: 646px;
+    background-color: #1a0b2e;
+    color: #ffffff;
+}
+
+.podcast-container .podcast-writing{
+    width: 1200px;
+    height: 222px;
+    margin:50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.podcast-writing .pod-title{
+    height: 58px;
+    font-weight: bold;
+    font-size: 3rem;
+    margin: 0 0 16px 0;
+    border: none;
+    
+}
+
+.podcast-writing .pod-text{
+    margin-top: 16px;
+    font-size: 1rem;
+    height: 148px;
+    line-height: 20px;
+    margin: 0 auto;
+}
+
+.pod-cards{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:80px ;
+    padding: 0 200px;
+    margin-top: 180px;
+    margin-bottom: 120px;
+    justify-items: center;
+}
+
+.listeners, .episode, .rating, .expert {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.card-title{
+    color: #00FF88;
+    font-size: 4rem;
+    margin-bottom: 16px;
+}
+
+.card-text{
+    font-size: 1rem;
+    
+}
