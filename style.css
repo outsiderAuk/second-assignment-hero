@@ -258,6 +258,7 @@ nav {
     height: 148px;
     line-height: 20px;
     margin: 0 auto;
+    opacity: 80%;
 }
 
 .pod-cards{
@@ -289,3 +290,116 @@ nav {
     font-size: 1rem;
     
 }
+
+.choose-container{
+
+  width: 100%;
+  height: 1121px;
+  background-color: #230e3d;
+  color: #ffffff;
+}
+
+.choose-container-title{
+  width: 1200px;
+  height: 59px;
+  padding: 120px;
+  margin-left: 200px;
+  font-weight: bold;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.choose-reason{
+  width:1200px;
+  height: 783px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(3,1fr);
+  margin-left: 165px;
+  margin-right: 200px;
+}
+
+.choose-card-title{
+  margin-top: 16px;
+  margin-left: 40px;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+
+.choose-card-text{
+  margin-top: 16px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  opacity: 60%;
+}
+
+
+
+
+.headphone{
+  grid-column:span 1;
+  grid-row: span 2;
+  width: 380px;
+  height: 480px;
+  background-color: #351165;
+  border-radius: 40px;
+  
+}
+
+.headphone img{
+  margin-top: 107px;
+
+}
+.choose-reason img{
+  padding-top: 40px;
+  padding-left: 40px;
+  
+}
+
+.mobile{
+  grid-column: span 2;
+  grid-row: span 1;
+  width: 790px;
+  height: 225px;
+  background-color: #351165;
+  border-radius: 40px;
+
+}
+
+.global{
+  grid-column: span 2;
+  grid-row: span 1;
+  width: 790px;
+  height: 225px;
+  background-color: #351165;
+  border-radius: 40px;
+}
+
+.lighting{
+  grid-column: span 2;
+  grid-row: span 1;
+  width: 790px;
+  height: 273px;
+  background-color: #351165;
+  border-radius: 40px;
+}
+
+.resource{
+  grid-column: span 1;
+  grid-row: span 1;
+  width: 380px;
+  height: 273px;
+  background-color: #351165;
+  border-radius: 40px;
+}
+
+
+
+
