@@ -409,7 +409,7 @@ nav {
 
 .featured-episode{
   padding-top: 120px;
-  padding-left: 200px;
+  padding-left: 160px;
 
 }
 
@@ -474,6 +474,98 @@ nav {
 
 .episode-time p{
   color: #00FF88;
+}
+
+
+.host{
+   width: 1200px;
+   height: 378px;
+   margin-top: 120px;
+   margin-left: 160px;
+
+}
+
+
+
+.host h1{
+  height: 59px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 3rem;
+  margin-bottom: 40px;
+}
+
+.host img{
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-bottom: 40px;
+}
+
+.host-details{
+  display: flex;
+  background-color:#250D44;
+  border-radius: 40px;
+}
+
+.name-social{
+  padding-left: 24px;
+}
+.host-details h2{
+  font-size: 2rem;
+  font-weight: bold;
+  padding-top:48.5px;
+  margin-bottom: 16px;
+}
+
+.host-details p{
+  line-height: 24px;
+  font-size: 1rem;
+  opacity: 60%;
+}
+
+.host-icon{
+  width: 184px;
+  height: 40px;
+  display: flex;
+  flex-direction: space-around;
+  gap: 8px;
+  margin-top: 16PX;
+}
+
+.iconsss{
+  width: 40px;
+  height: 40px;
+  border:2px solid #4a1c86 ;
+  border-radius: 50%;
+}
+
+
+.iconsss .linkd{
+  padding-left: 12px;
+  padding-top: 9.5px;
+  padding-bottom: 11.5px;
+
+}
+
+.iconsss .x{
+  padding-left: 12px;
+  padding-top: 10.5px;
+  padding-bottom: 11.5px;
+
+}
+
+.iconsss .insta{
+  padding-left: 10px;
+  padding-top: 9.5px;
+  padding-bottom: 11.5px;
+
+}
+
+.iconsss .youtube{
+  padding-left: 9px;
+  padding-top: 9.5px;
+  padding-bottom: 11.5px;
+
 }
 
 
