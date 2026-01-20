@@ -58,6 +58,10 @@ nav {
   color: #ee6109;
 }
 
+.hamburger{
+  display: none;
+}
+
 .subscribe-btn {
 
   margin-right: 200px;
@@ -600,8 +604,8 @@ footer{
 
 footer h1{
    font-size: 5rem;
-   padding-left: 620px;
-   padding-top: 105px;
+   padding-left: 580px;
+   padding-top: 100px;
 
 }
 
@@ -611,8 +615,8 @@ footer h1{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 10px;
-  margin-left: 525px;
+  margin-top: 0px;
+  margin-left: 490px;
   gap:40px;
 }
 
@@ -629,7 +633,7 @@ footer h1{
 .copyright{
   font-size: 1rem;
   opacity: 60%;
-  padding-left: 630px;
+  padding-left: 590px;
   padding-top: 32px;
   
 
