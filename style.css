@@ -33,7 +33,7 @@ nav {
 
 
 .wave {
-  background: linear-gradient(90deg, #FF6B6B, #FF4D8E);
+  background: linear-gradient(15deg, #f8f412, #e304d0, #1a0622);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -579,3 +579,56 @@ nav {
 
 
 
+footer{
+  width: 100%;
+  height: 412px;
+  background-image: url(./B13-A02-TechWave/assets/footer-bg.png);
+  color: #ffffff;
+}
+
+footer h1{
+   font-size: 5rem;
+   padding-left: 620px;
+   padding-top: 105px;
+
+}
+
+.footer-links{
+  width: 544px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 525px;
+  gap:40px;
+}
+
+.footL{
+  display: flex;
+  gap: 8PX;
+}
+
+.footL p{
+  font-size: 1rem;
+  opacity: 60%;
+}
+
+.copyright{
+  font-size: 1rem;
+  opacity: 60%;
+  padding-left: 630px;
+  padding-top: 32px;
+  
+
+}
+
+
+.footer-links a {
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+
+.footer-links a:hover {
+  transform: scale(1.5);
+}
