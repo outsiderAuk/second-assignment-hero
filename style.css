@@ -568,5 +568,14 @@ nav {
 
 }
 
+.iconsss a {
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+
+.iconsss a:hover {
+  transform: scale(1.5);
+}
+
 
 
