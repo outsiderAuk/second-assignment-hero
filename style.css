@@ -120,7 +120,10 @@ nav {
 .circle {
   width: 350px;
   height: 350px;
-  
+  border-radius: 50%;
+  background-color: #1a0b2e;
+  position: relative;
+  transition: transform 0.5s ease;
 }
 
 .microphone {
@@ -128,9 +131,14 @@ nav {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 116px; 
+  width: 116px;
   height: 175px;
 }
+
+.circle:hover {
+  transform: scale(1.1);
+}
+
 
 .banner-new {
   width: 75px;
@@ -632,3 +640,5 @@ footer h1{
 .footer-links a:hover {
   transform: scale(1.5);
 }
+
+
